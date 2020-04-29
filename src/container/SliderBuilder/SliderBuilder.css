@@ -1,0 +1,23 @@
+.SculptureContainer {
+  margin: 50px;
+  width: 300px;
+  height: 450px;
+  float: left;
+  background-color: #D2D2D2;
+}
+
+.ArticleContainer {
+  margin: 50px;
+  width: 200px;
+  height: 300px;
+  float: left;
+  background-color: #313131;
+}
+
+.PaintingContainer {
+  margin: 50px;
+  width: 435px;
+  height: 300px;
+  float: left;
+  background-color: #434343;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width:1280px) {
+  .wrapper{ 
+    width: 1280px ; 
+  }
+}

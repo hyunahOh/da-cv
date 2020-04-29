@@ -1,14 +1,16 @@
 import React from 'react';
-import Aux from '../hoc/Auxi';
 import SliderBuilder from '../container/SliderBuilder/SliderBuilder';
+import Wrapper from '../components/Layout/Layout';
 
 const Gallery = () => {
     return (
-        <Aux>
-            <h1>DAEUN PARK sculpture</h1>
-            <h2>Gallery</h2>
-            <SliderBuilder />
-        </Aux>
+        <React.Fragment>
+            <Wrapper>
+                <h1>DAEUN PARK sculpture</h1>
+                <div>Gallery</div>
+                <SliderBuilder />
+            </Wrapper>
+        </React.Fragment>
     );
 };
 
